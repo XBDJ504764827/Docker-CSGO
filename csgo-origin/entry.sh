@@ -25,11 +25,11 @@ function start() {
         -console \
         -usercon \
         -port ${PORT} \
-        +clientport ${clientport} \
-        +tv_port ${sourcetvport}
         -ip ${IP} \
         -tickrate ${TICKRATE} \
-        -maxplayers_override ${maxplayers}
+        -maxplayers_override ${maxplayers} \
+        +clientport ${clientport} \
+        +tv_port ${sourcetvport} \
         +game_type ${GAMETYPE} \
         +game_mode ${GAMEMODE} \
         +mapgroup ${MAPGRAOUP} \
